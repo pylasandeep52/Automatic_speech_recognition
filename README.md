@@ -52,7 +52,7 @@ This notebook walks you through:
 
 ```bash
 git clone  https://github.com/pylasandeep52/Automatic_speech_recognition.git
-cd your-repository
+cd https://github.com/pylasandeep52/Automatic_speech_recognition)
 ````
 
 ### 2️⃣ Create and Activate a Virtual Environment
