@@ -1,8 +1,7 @@
-
 ````markdown
-# 🗣️ Text-to-Speech (TTS) Pipeline Using NVIDIA NeMo
+# 🗣️ ASR Pipeline Using NVIDIA NeMo
 
-This project demonstrates a **Text-to-Speech (TTS) pipeline** using NVIDIA's **NeMo** framework. The notebook includes an end-to-end process: converting an audio file to text using **QuartzNet (ASR)** and then converting the text back to synthetic speech using **FastPitch + HiFi-GAN (TTS)**.
+This project demonstrates a **ASR pipeline** using NVIDIA's **NeMo** framework. The notebook includes an end-to-end process: converting an audio file to text using **QuartzNet (ASR)** and then converting the text back to synthetic speech using **FastPitch + HiFi-GAN (TTS)**.
 
 ---
 
@@ -16,7 +15,7 @@ This project demonstrates a **Text-to-Speech (TTS) pipeline** using NVIDIA's **N
 - [Further Implementations](#further-implementations)
 - [Real-World Use Cases](#real-world-use-cases)
 - [Conclusion](#conclusion)
-- [License](#license)
+
 
 ---
 
@@ -60,13 +59,13 @@ cd your-repository
 
 ```bash
 # Create a virtual environment
-python -m venv tts_env
+python -m venv ASR_env
 
 # Activate (Linux/macOS)
-source tts_env/bin/activate
+source ASR_env/bin/activate
 
 # Activate (Windows)
-tts_env\Scripts\activate
+ASR_env\Scripts\activate
 ```
 
 ### 3️⃣ Install Dependencies
@@ -157,7 +156,7 @@ Open the notebook `TTS_Pipeline.ipynb` and run each cell in order.
 
 ## 🚀 Further Implementations
 
-* ✅ Real-time TTS from microphone input
+* ✅ Real-time ASR from microphone input
 * ✅ Support multiple languages or dialects
 * ✅ Voice cloning and style transfer
 * ✅ Emotion-based speech synthesis
@@ -179,7 +178,7 @@ Open the notebook `TTS_Pipeline.ipynb` and run each cell in order.
 
 ## 🧾 Conclusion
 
-This project illustrates how to build an end-to-end TTS system using NVIDIA NeMo. It combines powerful models—QuartzNet, FastPitch, and HiFi-GAN—to transcribe audio and synthesize natural speech. With clear visualizations and modular components, this project is a strong foundation for advanced speech-based applications like voice assistants, chatbots, and AI narrators.
+This project illustrates how to build an end-to-end ASR system using NVIDIA NeMo. It combines powerful models—QuartzNet, FastPitch, and HiFi-GAN—to transcribe audio and synthesize natural speech. With clear visualizations and modular components, this project is a strong foundation for advanced speech-based applications like voice assistants, chatbots, and AI narrators.
 
 Feel free to extend, tweak, or integrate this into larger AI systems!
 
