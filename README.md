@@ -1,6 +1,6 @@
 
 ````markdown
-*🗣️ Text-to-Speech (TTS) Pipeline Using NVIDIA NeMo*
+# 🗣️ Text-to-Speech (TTS) Pipeline Using NVIDIA NeMo
 
 This project demonstrates a **Text-to-Speech (TTS) pipeline** using NVIDIA's **NeMo** framework. The notebook includes an end-to-end process: converting an audio file to text using **QuartzNet (ASR)** and then converting the text back to synthetic speech using **FastPitch + HiFi-GAN (TTS)**.
 
@@ -51,12 +51,14 @@ This notebook walks you through:
 
 ### 1️⃣ Clone the Repository
 
+```bash
 git clone https://github.com/pylasandeep52/Automatic_speech_recognition.git
 cd your-repository
-
+````
 
 ### 2️⃣ Create and Activate a Virtual Environment
 
+```bash
 # Create a virtual environment
 python -m venv tts_env
 
@@ -65,6 +67,7 @@ source tts_env/bin/activate
 
 # Activate (Windows)
 tts_env\Scripts\activate
+```
 
 ### 3️⃣ Install Dependencies
 
@@ -150,22 +153,15 @@ Open the notebook `TTS_Pipeline.ipynb` and run each cell in order.
     librosa.display.specshow(mel_spec_db, x_axis='time', y_axis='mel')
     ```
 
-### 🔊 ASR to TTS Pipeline
-
-1. Load pre-trained **QuartzNet** for speech-to-text
-2. Generate **mel spectrogram** from text using **FastPitch**
-3. Convert spectrogram into waveform using **HiFi-GAN**
-4. Play generated speech
-
 ---
 
 ## 🚀 Further Implementations
 
-* ✅ **Real-time TTS from microphone input**
-* ✅ **Support multiple languages or dialects**
-* ✅ **Voice cloning and style transfer**
-* ✅ **Emotion-based speech synthesis**
-* ✅ **Build a chatbot or voice assistant interface**
+* ✅ Real-time TTS from microphone input
+* ✅ Support multiple languages or dialects
+* ✅ Voice cloning and style transfer
+* ✅ Emotion-based speech synthesis
+* ✅ Build a chatbot or voice assistant interface
 
 ---
 
@@ -193,9 +189,9 @@ Feel free to extend, tweak, or integrate this into larger AI systems!
 
 This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
 
+```
+
 ---
 
-### 🔗 Connect
-
-For questions, contributions, or feedback, feel free to open an issue or a pull request.
-
+Let me know if you want me to include GitHub badges, links to datasets, or help you generate a LICENSE file too.
+```
