@@ -51,10 +51,10 @@ This notebook walks you through:
 
 ### 1️⃣ Clone the Repository
 
-```bash
+
 git clone https://github.com/pylasandeep52/Automatic_speech_recognition.git
 cd your-repository
-````
+
 
 ### 2️⃣ Create and Activate a Virtual Environment
 
@@ -183,15 +183,6 @@ This project illustrates how to build an end-to-end TTS system using NVIDIA NeMo
 
 Feel free to extend, tweak, or integrate this into larger AI systems!
 
----
 
-## 📄 License
 
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
 
-```
-
----
-
-Let me know if you want me to include GitHub badges, links to datasets, or help you generate a LICENSE file too.
-```
