@@ -180,7 +180,6 @@ Open the notebook `TTS_Pipeline.ipynb` and run each cell in order.
 
 This project illustrates how to build an end-to-end ASR system using NVIDIA NeMo. It combines powerful models—QuartzNet, FastPitch, and HiFi-GAN—to transcribe audio and synthesize natural speech. With clear visualizations and modular components, this project is a strong foundation for advanced speech-based applications like voice assistants, chatbots, and AI narrators.
 
-Feel free to extend, tweak, or integrate this into larger AI systems!
 
 ---
 
