@@ -1,6 +1,6 @@
 
 ````markdown
-# 🗣️ Text-to-Speech (TTS) Pipeline Using NVIDIA NeMo
+**🗣️ Text-to-Speech (TTS) Pipeline Using NVIDIA NeMo**
 
 This project demonstrates a **Text-to-Speech (TTS) pipeline** using NVIDIA's **NeMo** framework. The notebook includes an end-to-end process: converting an audio file to text using **QuartzNet (ASR)** and then converting the text back to synthetic speech using **FastPitch + HiFi-GAN (TTS)**.
 
@@ -52,8 +52,9 @@ This notebook walks you through:
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/your-repository.git
+git clone https://github.com/pylasandeep52/Automatic_speech_recognition.git
 cd your-repository
+
 ````
 
 ### 2️⃣ Create and Activate a Virtual Environment
